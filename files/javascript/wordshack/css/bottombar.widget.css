@@ -1,0 +1,40 @@
+.bottombar {
+	background-color: #CCE6FF;
+	box-shadow: 0px -10px 10px #5C5D60;
+	height: 100px;
+	width: 750px;
+	position: fixed;
+	bottom: 0px;
+	margin: auto;
+	padding: 10 px;
+	left: 0;
+	right: 0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.bottombuttonsdiv {
+	position: relative;
+	bottom: -0px;
+	margin: 0 auto;
+	padding: 20px;
+	width: 250 px;
+}
+
+.tilecontainer {
+	position: relative;
+	margin: 0 auto;
+	bottom: 0px;
+	width: 400px;
+	height: 50px;
+	white-space: nowrap;
+}
+
+.bottombuttons {
+	/*box-shadow: inset 20px 20px 20px -20px #9494B8;*/
+	background-color: #F0F0F5;
+	border-radius: 6px;
+	font-family: 'Griffy', cursive;
+    font-weight: bold;
+    font-size: 15px;
+}

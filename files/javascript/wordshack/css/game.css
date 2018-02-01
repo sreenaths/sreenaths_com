@@ -1,0 +1,45 @@
+
+/** TODO : Need to be modularized */
+
+.map-tile{
+	position:absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.overflowBox {
+	overflow: hidden!important;
+}
+
+#mainContainer {
+	position:fixed;
+	background-color: #FF0000;
+	width: 6000px;
+}
+
+#mapContainer{
+	position:relative;
+	background-color: #FF2222;
+}
+
+.hoverHand{
+	cursor:hand;
+}
+
+/*--- Footer ---------------*/
+
+.footer{
+	position:absolute;
+	width: 100%;
+	background-color: rgba(100,100,100,.4);
+	bottom: 0px;
+	padding: 5px;
+}
+.footer .footer-left{
+	float: left;
+	padding-left: 10px;
+}
+.footer .footer-right{
+	float: right;
+	padding-right: 10px;
+}

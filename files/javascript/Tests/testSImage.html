@@ -1,0 +1,61 @@
+<HTML>
+	<HEAD>
+		<TITLE>S-Image Tester - I</TITLE>
+	</HEAD>
+	<BODY>
+		<CENTER><B style='color:#316AC5'>S-Image TESTER - I</B></CENTER>
+		<HR/>
+
+		<div id="container10" style="position:absolute;left:500px;top:70px;width:740px;height:650px;border:solid;color:#AAAAAA"></div>
+
+		<div id="container1" style="position:absolute;left:500px;top:70px;width:740px;height:650px;border:solid;color:#AAAAAA">
+		<div id="container2" style="position:absolute;left:150px;top:150px;width:440px;height:340px;border:solid;color:#AAAAAA;overflow:hidden;">
+		 
+		</div>
+		</div>
+
+		<div style="position:absolute;left:100px;top:120px;width:270px;height:550px;border:solid;color:#777777;"> </div>
+		<div style="position:absolute;left:150px;top:170px;width:170px;height:450px;border:solid;color:#777777;"> </div>
+
+		<script type="text/javascript" src="../sJS/sJS.js"></script>
+		<script>	
+			sJS.include("sImage");
+		</script>
+
+		<script type="text/javascript">
+
+			// Testing src,width,height
+			var obj1= new sImage({src: "Images/Bittorrent.png",width:256,height:256,x:70,y:100,zoom:.4,hidden:false,opacity:20});
+			var obj2= new sImage({src: "Images/Bittorrent.png",width:256,height:256,x:120,y:120,zoom:.5,hidden:false,opacity:40});
+			var obj3= new sImage({src: "Images/Bittorrent.png",width:256,height:256,x:170,y:140,zoom:.6,hidden:false,opacity:60});
+			var obj4= new sImage({src: "Images/Bittorrent.png",width:256,height:256,x:220,y:160,zoom:.7,hidden:false,opacity:80});
+			var obj5= new sImage({src: "Images/Bittorrent.png",width:256,height:256,x:290,y:180,zoom:.8,hidden:false,opacity:100});
+			var obj6= new sImage({src: "Images/Bittorrent.png",width:256,height:256,x:360,y:220,hidden:false,opacity:100});
+
+			var obj11= new sImage({src: "Images/3ds Max.png",width:256,height:256,x:120,y:350,hidden:false,opacity:100});
+			var obj12= new sImage({src: "Images/3ds Max.png",width:256,height:206,x:100+70,y:350+25,hidden:false,opacity:90});
+			var obj13= new sImage({src: "Images/3ds Max.png",width:256,height:156,x:100+70*2,y:350+50,hidden:false,opacity:80});
+			var obj14= new sImage({src: "Images/3ds Max.png",width:256,height:106,x:100+70*3,y:350+75,hidden:false,opacity:70});
+			var obj15= new sImage({src: "Images/3ds Max.png",width:206,height:56,x:100+70*4,y:350+100,hidden:false,opacity:60});
+
+			var obj21= new sImage({src: "Images/Monitor.png",width:256,height:256,x:120,y:570,hidden:false,opacity:100});
+			var obj22= new sImage({src: "Images/Monitor.png",width:206,height:256,x:100+100,y:570+15,hidden:false,opacity:75});
+			var obj23= new sImage({src: "Images/Monitor.png",width:156,height:256,x:100+95*2,y:570+30,hidden:false,opacity:50});
+			var obj24= new sImage({src: "Images/Monitor.png",width:106,height:256,x:100+90*3,y:570+45,hidden:false,opacity:75});
+			var obj25= new sImage({src: "Images/Monitor.png",width:56,height:256,x:100+82*4,y:570+60,hidden:false,opacity:100});
+
+			var obj31= new sImage({src: "Images/Basketball.png",width:256,height:256,hidden:false,renderInto:'container1',position:'static'});
+			var obj32= new sImage({src: "Images/Basketball.png",width:256,height:256,hidden:false,renderInto:'container1',position:'static',zoom:.8});
+			var obj33= new sImage({src: "Images/Basketball.png",width:256,height:256,hidden:false,renderInto:'container1',position:'static'});
+			var obj34= new sImage({src: "Images/Basketball.png",width:256,height:256,hidden:false,renderInto:'container1',position:'relative'});
+			var obj35= new sImage({src: "Images/Basketball.png",width:256,height:256,hidden:false,y:140,renderInto:'container1',position:'relative',zoom:.8});
+			var obj36= new sImage({src: "Images/Basketball.png",width:256,height:256,hidden:false,renderInto:'container1',position:'relative'});
+			var obj37= new sImage({src: "Images/Basketball.png",width:256,height:256,x:240,y:390,hidden:false,opacity:100,renderInto:'container1'});// position - Fixed
+			var obj38= new sImage({src: "Images/Basketball.png",width:256,height:256,x:650,y:600,hidden:false,renderInto:'container1',position:'absolute'});
+
+			var obj41= new sImage({src: "Images/globe.jpg",width:570,height:570,hidden:false,renderInto:'container2',position:'static'});
+			var obj42= new sImage({src: "Images/Downloader.png",width:256,height:256,hidden:false,renderInto:'container2',position:'absolute'});
+
+		</script>
+	</BODY>
+</HTML>

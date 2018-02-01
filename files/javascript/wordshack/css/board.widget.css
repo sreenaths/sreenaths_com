@@ -1,0 +1,91 @@
+.board {
+	background-color: #CCE6FF;
+	position:absolute;
+}
+
+.board-row {
+	display: inline-block;
+}
+
+.tileholder {
+	width: 56px;
+	height: 56px;
+	float: left;
+	background-color: #F0F0F5;
+	margin: 2px;
+	/*box-shadow: inset 20px 20px 20px -20px #9494B8;*/
+	/*background: url(http://css-tricks.com/examples/CSS3Gradient/images/linear_bg_2.png);
+	background-repeat: repeat-x;*/
+	border-radius: 10px;
+
+	/* REMOVE ME */
+	font-family: 'Griffy', cursive;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 55px;
+
+   	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.tileholder.dl {
+	background-color: #327FC7;
+}
+
+.tileholder.tl {
+	background-color: #6683FF;
+}
+
+.tileholder.dw {
+	background-color: #FF9900;
+}
+
+.tileholder.tw {
+	background-color: #cc0000;
+}
+
+.tile {
+	background: #f6e6b4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f6e6b4 0%, #ed9017 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6e6b4), color-stop(100%,#ed9017)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6e6b4 0%,#ed9017 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+
+	width: 52px;
+	height: 52px;
+	border-radius: 10px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	font-family: 'Griffy', cursive;
+	font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 52px;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.highlightholder {
+	background-color: red;
+}

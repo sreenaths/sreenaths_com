@@ -1,0 +1,410 @@
+/*
+	Main CSS for sreenaths.com
+*/
+/* -- Fonts -- 	*/
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700);
+@import url(http://fonts.googleapis.com/css?family=Alef);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:300);
+/* --- Overrides --- */
+body {
+  min-width: 320px;
+  margin: 0px;
+  background: url('../images/bg-footer.jpg');
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  font-family: 'Istok Web', sans-serif;
+  text-decoration: none;
+  color: #999999;
+}
+a:hover {
+  color: #FFFFFF !important;
+}
+a.hover-black:hover {
+  color: #000000 !important;
+}
+/* --- Loading anim --- */
+.loading-msg {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -25px;
+  width: 80px;
+  height: 50px;
+  color: #888888;
+  font-family: Helvetica;
+  display: none;
+}
+.loading-msg img:first-child {
+  width: 32px;
+  height: 32px;
+}
+/* --- Generic Styles --- */
+.no-mouse {
+  pointer-events: none;
+}
+.hidden {
+  display: none;
+}
+.center {
+  text-align: center;
+}
+.outer-block {
+  text-align: center;
+  padding: 0 30px 0 30px;
+}
+.outer-block .inner-block {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  text-align: left;
+}
+@media only screen and (max-width: 400px) {
+  .outer-block {
+    padding: 0 20px 0 20px;
+  }
+}
+.inner-shade {
+  -webkit-box-shadow: inset 0 1px 7px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 1px 7px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 7px 0 rgba(0, 0, 0, 0.3);
+}
+/* --- Offseters --- */
+.v-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.v-padding-2x {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* ---- BGs ---- */
+.bg1 {
+  background: url('../images/bg-bottom.jpg');
+  border-top: 1px solid;
+  border-color: #999999;
+}
+.bg2 {
+  background: url('../images/bg-bottom2.jpg');
+  border-top: 1px solid;
+  border-color: #999999;
+}
+/* --- Bars --- */
+bar {
+  background: url('../images/bar.png.jpg');
+  height: 3px;
+  display: inline-block;
+}
+/* ---- Texts ---- */
+.heading {
+  font-family: 'Alef', sans-serif;
+  font-size: 48px;
+  color: #222222;
+}
+.sub-heading {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 18px;
+  color: #888888;
+}
+.small-text {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+.description {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  color: #444444;
+  line-height: 25px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+.small {
+  font-size: .5em;
+}
+/* --- Form ---*/
+.form-submit-button {
+  background: #B9DFFF;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+}
+.form-submit-button:hover {
+  background: #016ABC;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+}
+/* --- Aligners --- */
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.full-width {
+  width: 100%;
+}
+.grey-gradiant {
+  background-image: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
+  background-image: -webkit-gradient(linear, top, bottom, from(#FFFFFF), to(#CCCCCC));
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #CCCCCC);
+  background-image: -o-linear-gradient(top, #FFFFFF, #CCCCCC);
+  background: -ms-linear-gradient(top, #FFFFFF, #CCCCCC);
+  background-image: linear-gradient(to bottom, #FFFFFF, #CCCCCC);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0);
+}
+.grey-gradiant-half {
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 46%, #cdcdcd 99%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(46%, rgba(255, 255, 255, 0)), color-stop(99%, #cdcdcd), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 46%, #cdcdcd 99%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 46%, #cdcdcd 99%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 46%, #cdcdcd 99%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 46%, #cdcdcd 99%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#cccccc', GradientType=0);
+  /* IE6-9 */
+}
+/*-- Button ---*/
+a.button {
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  padding: 2px 7px 2px 7px;
+  border: 1px solid rgba(100, 100, 100, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -o-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), /* Exterior Shadow */ inset 0 1px rgba(255, 255, 255, 0.3), /* Top light Line */ inset 0 6px rgba(255, 255, 255, 0.2), /* Top Light Shadow */ inset 0 10px 20px rgba(255, 255, 255, 0.15), /* Sides Light Shadow */ inset 0 -15px 30px rgba(0, 0, 0, 0.15);
+  /* Dark Background */
+  margin: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+a.button img {
+  margin-bottom: -4px;
+  margin-right: 2px;
+}
+a.button:hover {
+  color: #000 !important;
+}
+a.button .bubble {
+  display: inline-block;
+  font-size: .85em;
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgba(100, 100, 100, 0.4);
+  border-radius: 10px;
+}
+a.button.selected {
+  background-color: #6495ED;
+  color: #FFF;
+}
+/*
+	Header & Footer CSS for sreenaths.com
+*/
+.header {
+  height: 90px;
+  background: url('../images/bg-header.jpg');
+}
+.header .inner-block {
+  position: relative;
+  padding-top: 10px;
+}
+.header .inner-block .index-link .logo,
+.header .inner-block .index-link .name {
+  display: inline-block;
+}
+.header .inner-block .index-link .logo {
+  vertical-align: middle;
+}
+.header .inner-block .index-link .name {
+  width: 200px;
+}
+.header .inner-block .menu {
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+}
+.header .inner-block .menu a {
+  font-size: 18px;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 650px) {
+  .header .inner-block {
+    text-align: center;
+  }
+  .header .inner-block .index-link .logo {
+    width: 32px;
+  }
+  .header .inner-block .index-link .name {
+    display: none;
+  }
+  .header .inner-block .menu {
+    position: static;
+    margin-top: 10px;
+  }
+}
+.footer {
+  height: 94px;
+  background: url('../images/bg-footer.jpg');
+  border-top: 1px solid;
+  border-color: #AAAAAA;
+}
+.footer .inner-block {
+  position: relative;
+  padding-top: 40px;
+}
+.footer .inner-block .small-text,
+.footer .inner-block .menu {
+  display: inline-block;
+  width: 45%;
+}
+.footer .inner-block .menu {
+  width: 50%;
+}
+.footer .inner-block .menu a {
+  margin-left: 10px;
+}
+.footer .inner-block .menu a:first-child {
+  margin-left: 0;
+}
+.footer .inner-block .scroll-top {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+@media only screen and (max-width: 650px) {
+  .footer .inner-block {
+    padding-top: 23px;
+  }
+  .footer .inner-block .small-text,
+  .footer .inner-block .menu {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .footer .inner-block .small-text {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .footer .inner-block .scroll-top {
+    top: 35px;
+  }
+}
+.home-page .home-link {
+  color: #FFF;
+}
+.about-page .about-link {
+  color: #FFF;
+}
+.contacts-page .contacts-link {
+  color: #FFF;
+}
+.projects-page .projects-link {
+  color: #FFF;
+}
+.skype-plus {
+  vertical-align: middle;
+}
+/*-- Pages --*/
+.about-page .title-bar {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.about-page .title-bar .cover-image {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+}
+.about-page .title-bar .sub-heading,
+.about-page .title-bar .description {
+  width: 490px;
+}
+.about-page .title-bar .description {
+  font-size: 14px;
+}
+.about-page .facts-bar .super-heros {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.about-page .facts-bar .sub-heading {
+  width: 400px;
+}
+.about-page .facts-bar .description {
+  width: 700px;
+  font-size: 14px;
+}
+.about-page .facts-bar ul {
+  margin-left: -22px;
+}
+@media only screen and (max-width: 1010px) {
+  .about-page .title-bar .sub-heading,
+  .about-page .title-bar .description {
+    width: 100%;
+  }
+  .about-page .title-bar .cover-image {
+    position: static;
+    text-align: center;
+    width: 40%;
+    padding-top: 10px;
+  }
+  .about-page .facts-bar .super-heros {
+    position: static;
+    width: 50%;
+    margin-bottom: -25px;
+  }
+}
+.contacts-page {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.contacts-page .cover-image {
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+}
+.contacts-page .sub-heading {
+  width: 400px;
+}
+.contacts-page .description {
+  width: 500px;
+}
+.contacts-page .description a {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 350px;
+}
+@media only screen and (max-width: 950px) {
+  .contacts-page .cover-image {
+    position: static;
+    width: 50%;
+  }
+  .contacts-page .sub-heading,
+  .contacts-page .description {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .contacts-page .description {
+    font-size: 14px;
+  }
+  .contacts-page img:first-child {
+    width: 40px;
+  }
+}

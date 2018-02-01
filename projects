@@ -1,0 +1,2487 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Sreenath S &#187; Projects</title>
+
+		<!-- Setting viewport for mobiles -->
+		<meta name=viewport content="width=320, initial-scale=1">
+
+		<!-- Load styles -->
+		<link rel="stylesheet" type="text/css" href="css/main.css?ver=1">
+		<link rel="icon" type="image/png" href="favicon.png?ver=1">
+
+		<!-- Image preloads -->
+		<link rel="prefetch" href="images/loader.gif?ver=1"/>
+		<link rel="prefetch" href="images/bg-header.jpg?ver=1"/>
+
+		<!-- Load scripts -->
+		<script src="js/jq.js?ver=1"></script>
+		<script src="js/shared.js?ver=1"></script>
+	</head>
+
+	<body class="landscape projects-page">
+
+		<div class="loading-msg">
+			<img src="images/ss.png?ver=1">
+			Loading</br>
+			<img src="images/loader.gif?ver=1">
+		</div>
+
+		<div class="main-container">
+			<script>initLoaderAnim();</script>
+
+			<div class="header outer-block">
+				<div class="inner-block">
+					<a class="index-link" href="index">
+						<img class="logo" src="images/ss.png?ver=1"/>
+						<div class="name">&nbsp;Sreenath Somarajapuram</div>
+					</a>
+					<div class="menu">
+						<a class="home-link" href="index">home</a>
+						<a class="about-link" href="about">about</a>
+						<a class="projects-link" href="projects">projects</a>
+						<a class="contacts-link" href="contacts">contacts</a>
+					</div>
+				</div>
+			</div>
+
+			
+	<link rel="stylesheet" type="text/css" href="css/projects.css?ver=1">
+	<link href="css/lightbox.css?ver=1" rel="stylesheet" />
+
+	<script src="js/lightbox.js?ver=1"></script>
+	<script>
+		sticky("#sticky-bar");
+	</script>
+
+	<div class="title-bar outer-block grey-gradiant-half">
+		<div class="inner-block v-padding-2x">
+			<div class="heading">Projects</div>
+			<div class="sub-heading">
+				They are more than a few lines of code. They are, what I am.
+			</div>
+			<div class="description">
+				<p>Programming is my first love, and from the first glimpse I knew that we would be together for life. My first notable work was released in 2002, and was a game. Over these years I have worked on numerous projects across multiple platforms, operating systems, and languages.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="inner-shade bg1">
+
+		<div>
+			<div id="sticky-bar" class="outer-block tag-bar">
+				<div class="inner-block v-padding">
+					<div class=sub-heading>Tags</div>
+					<ul>
+							<li><a href="#" onClick="toggleTagSelection('js'); return false;" class="button js">
+								<img src="images/techIcons/small/javascript.png"/>JavaScript <div class="bubble">8</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('html'); return false;" class="button html">
+								<img src="images/techIcons/small/html5.png"/>HTML 5 <div class="bubble">5</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('css'); return false;" class="button css">
+								<img src="images/techIcons/small/css3.png"/>CSS 3 <div class="bubble">5</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('as3'); return false;" class="button as3">
+								<img src="images/techIcons/small/as3.png"/>Action Script 3 <div class="bubble">10</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('php'); return false;" class="button php">
+								<img src="images/techIcons/small/php.png"/>PHP <div class="bubble">5</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('stage3d'); return false;" class="button stage3d">
+								<img src="images/techIcons/small/stage3d.png"/>Stage 3D <div class="bubble">1</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('flare3d'); return false;" class="button flare3d">
+								<img src="images/techIcons/small/flare3d.png"/>Flare 3D <div class="bubble">1</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('hbase'); return false;" class="button hbase">
+								<img src="images/techIcons/small/hbase.png"/>H-Base <div class="bubble">1</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('flash'); return false;" class="button flash">
+								<img src="images/techIcons/small/flash.png"/>Flash <div class="bubble">6</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('java'); return false;" class="button java">
+								<img src="images/techIcons/small/java.png"/>Java <div class="bubble">3</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('rails'); return false;" class="button rails">
+								<img src="images/techIcons/small/rails.png"/>Ruby &amp; ROR <div class="bubble">2</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('cpp'); return false;" class="button cpp">
+								<img src="images/techIcons/small/cpp.png"/>C++ <div class="bubble">11</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('emberjs'); return false;" class="button emberjs">
+								<img src="images/techIcons/small/ember.png"/>Ember JS <div class="bubble">1</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('nodejs'); return false;" class="button nodejs">
+								<img src="images/techIcons/small/node.png"/>Node.js <div class="bubble">1</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('jquery'); return false;" class="button jquery">
+								<img src="images/techIcons/small/jquery.png"/>j-Query <div class="bubble">4</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('extjs'); return false;" class="button extjs">
+								<img src="images/techIcons/small/extjs.png"/>Ext-JS <div class="bubble">2</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('shell'); return false;" class="button shell">
+								<img src="images/techIcons/small/shell.png"/>Shell Script <div class="bubble">1</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('vb'); return false;" class="button vb">
+								<img src="images/techIcons/small/vb.png"/>Visual Basic <div class="bubble">3</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('unity'); return false;" class="button unity">
+								<img src="images/techIcons/small/unity.png"/>Unity <div class="bubble">1</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('personal'); return false;" class="button personal">
+								<img src="images/techIcons/small/me.png"/>Personal Project <div class="bubble">20</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('corporate'); return false;" class="button corporate">
+								<img src="images/techIcons/small/corporate.png"/>Corporate Project <div class="bubble">6</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('games'); return false;" class="button games">
+								<img src="images/techIcons/small/games.png"/>Games <div class="bubble">7</div>
+							</a></li>
+							<li><a href="#" onClick="toggleTagSelection('starling'); return false;" class="button starling">
+								<img src="images/techIcons/small/starling.png"/>Starling Framework <div class="bubble">2</div>
+							</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<ul class="projects-list">
+
+
+				<li class="project outer-block html css js jquery emberjs nodejs java corporate">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="http://tez.apache.org/" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/tez/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="http://tez.apache.org/">
+											TEZ UI
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="HTML 5" src="images/techIcons/small/html5.png?ver="/>
+											<img title="CSS 3" src="images/techIcons/small/css3.png?ver="/>
+											<img title="JavaScript" src="images/techIcons/small/javascript.png?ver="/>
+											<img title="j-Query" src="images/techIcons/small/jquery.png?ver="/>
+											<img title="Ember JS" src="images/techIcons/small/ember.png?ver="/>
+											<img title="Node.js" src="images/techIcons/small/node.png?ver="/>
+											<img title="Java" src="images/techIcons/small/java.png?ver="/>
+											<img title="Corporate Project" src="images/techIcons/small/corporate.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">HTML 5, CSS 3, Javascript, NodeJs</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2014-Present</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://hortonworks.com">
+													Hortonworks
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/tez/ss1.jpg" data-lightbox="tez" title="TEZ UI">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/tez/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/tez/ss2.jpg" data-lightbox="tez" title="TEZ UI">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/tez/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/tez/ss3.jpg" data-lightbox="tez" title="TEZ UI">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/tez/ss3t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/tez/ss1.jpg" data-lightbox="tez" title="TEZ UI">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/tez/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/tez/ss2.jpg" data-lightbox="tez" title="TEZ UI">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/tez/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/tez/ss3.jpg" data-lightbox="tez" title="TEZ UI">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/tez/ss3t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Apache Tez is an extensible framework for building high performance batch and interactive data processing applications, coordinated by YARN in Apache Hadoop. Tez improves the MapReduce paradigm by dramatically improving its speed, while maintaining MapReduce's ability to scale to petabytes of data. As member of Hortonworks my contributions are in the development of TEZ user interface.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block html css js jquery corporate">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="http://www.myntra.com/" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/myntra/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="http://www.myntra.com/">
+											Myntra.com
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="HTML 5" src="images/techIcons/small/html5.png?ver="/>
+											<img title="CSS 3" src="images/techIcons/small/css3.png?ver="/>
+											<img title="JavaScript" src="images/techIcons/small/javascript.png?ver="/>
+											<img title="j-Query" src="images/techIcons/small/jquery.png?ver="/>
+											<img title="Corporate Project" src="images/techIcons/small/corporate.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">HTML 5, CSS 3, Javascript, NodeJs</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2014</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://myntra.com">
+													Myntra
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/myntra/ss1.jpg" data-lightbox="myntra" title="Myntra.com">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/myntra/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/myntra/ss2.jpg" data-lightbox="myntra" title="Myntra.com">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/myntra/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/myntra/ss3.jpg" data-lightbox="myntra" title="Myntra.com">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/myntra/ss3t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/myntra/ss1.jpg" data-lightbox="myntra" title="Myntra.com">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/myntra/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/myntra/ss2.jpg" data-lightbox="myntra" title="Myntra.com">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/myntra/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/myntra/ss3.jpg" data-lightbox="myntra" title="Myntra.com">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/myntra/ss3t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Myntra is an Indian online shopping retailer of fashion and casual lifestyle products. We currently offers close to 50,000 products from more than 600 Indian and international brands, and ships about 5 million goods per month by hosting around 3,000 sellers.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block games as3 corporate">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="https://apps.facebook.com/onthefarm" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/fv/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="https://apps.facebook.com/onthefarm">
+											FarmVille
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Games" src="images/techIcons/small/games.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+											<img title="Corporate Project" src="images/techIcons/small/corporate.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2014</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://zynga.com">
+													Zynga
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/fv/ss1.jpg" data-lightbox="fv" title="FarmVille">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/fv/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/fv/ss2.jpg" data-lightbox="fv" title="FarmVille">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/fv/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/fv/ss3.jpg" data-lightbox="fv" title="FarmVille">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/fv/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/fv/ss4.jpg" data-lightbox="fv" title="FarmVille">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/fv/ss4t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/fv/ss1.jpg" data-lightbox="fv" title="FarmVille">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/fv/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/fv/ss2.jpg" data-lightbox="fv" title="FarmVille">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/fv/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/fv/ss3.jpg" data-lightbox="fv" title="FarmVille">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/fv/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/fv/ss4.jpg" data-lightbox="fv" title="FarmVille">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/fv/ss4t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								FarmVille is a farming simulation social network game developed by Zynga. Its gameplay involves various aspects of farm management such as plowing land, planting, growing, and harvesting crops, harvesting trees and raising livestock.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block games as3 starling corporate">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="http://www.facebook.com/hiddenshadowsgame" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/hs/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="http://www.facebook.com/hiddenshadowsgame">
+											Hidden Shadows
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Games" src="images/techIcons/small/games.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+											<img title="Starling Framework" src="images/techIcons/small/starling.png?ver="/>
+											<img title="Corporate Project" src="images/techIcons/small/corporate.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3, Starling framework</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2013</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://zynga.com">
+													Zynga
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/hs/ss1.jpg" data-lightbox="hot" title="Hidden Shadows">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/hs/ss2.jpg" data-lightbox="hot" title="Hidden Shadows">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/hs/ss3.jpg" data-lightbox="hot" title="Hidden Shadows">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/hs/ss4.jpg" data-lightbox="hot" title="Hidden Shadows">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss4t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/hs/ss5.jpg" data-lightbox="hot" title="Hidden Shadows">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss5t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/hs/ss6.jpg" data-lightbox="hot" title="Hidden Shadows">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss6t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/hs/ss7.jpg" data-lightbox="hot" title="Hidden Shadows">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss7t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/hs/ss1.jpg" data-lightbox="hot" title="Hidden Shadows">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/hs/ss2.jpg" data-lightbox="hot" title="Hidden Shadows">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/hs/ss3.jpg" data-lightbox="hot" title="Hidden Shadows">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/hs/ss4.jpg" data-lightbox="hot" title="Hidden Shadows">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss4t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/hs/ss5.jpg" data-lightbox="hot" title="Hidden Shadows">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss5t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/hs/ss6.jpg" data-lightbox="hot" title="Hidden Shadows">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss6t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/hs/ss7.jpg" data-lightbox="hot" title="Hidden Shadows">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hs/ss7t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Hidden shadows is the latest game from Zynga in the hidden objects genre. The game is a sequel to Hidden Chronicles. The game is a supernatural crime thriller in which you play the role of Michael Alder, an young executive, to solve the mysteries behind murders in Gracetown. My team had build three key features of the game, and is also working on numerous other modules. We are also in charge of solving all UI related technical blockers.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block as3 starling personal">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/starlingui/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Starling UI
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+											<img title="Starling Framework" src="images/techIcons/small/starling.png?ver="/>
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3, Starling framework</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2013</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/starlingui/ss1.jpg" data-lightbox="starlingui" title="Starling UI">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/starlingui/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/starlingui/ss2.jpg" data-lightbox="starlingui" title="Starling UI">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/starlingui/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/starlingui/ss3.jpg" data-lightbox="starlingui" title="Starling UI">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/starlingui/ss3t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/starlingui/ss1.jpg" data-lightbox="starlingui" title="Starling UI">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/starlingui/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/starlingui/ss2.jpg" data-lightbox="starlingui" title="Starling UI">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/starlingui/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/starlingui/ss3.jpg" data-lightbox="starlingui" title="Starling UI">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/starlingui/ss3t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Starling UI is an extension for starting framework with better UI components. It was started as my personal project, and now it's an inseparable part of our latest game, Hidden Shadows. The extension includes view-port, lossless-text-field, masked display container, rounded-progress- bars, scroll-panes, image-loader, tiling-systems, layering-composite etc.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal html css js">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="http://sreenaths.com/bouncingball/" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/bb/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="http://sreenaths.com/bouncingball/">
+											Bouncing Balls
+										</a>
+
+											<a class="hover-black" href="https://github.com/SreenathS/bouncingball.git">
+												<img src="images/git.png?ver="/>
+											</a>
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="HTML 5" src="images/techIcons/small/html5.png?ver="/>
+											<img title="CSS 3" src="images/techIcons/small/css3.png?ver="/>
+											<img title="JavaScript" src="images/techIcons/small/javascript.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">HTML 5, CSS 3, Javascript</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2013</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/bb/ss2.jpg" data-lightbox="bb" title="Bouncing Balls">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/bb/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/bb/ss1.jpg" data-lightbox="bb" title="Bouncing Balls">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/bb/ss1t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/bb/ss2.jpg" data-lightbox="bb" title="Bouncing Balls">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/bb/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/bb/ss1.jpg" data-lightbox="bb" title="Bouncing Balls">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/bb/ss1t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								A small weekend project to quench my thirst for HTML5. The short project created a highly sailable miniature collision system that can handle any number of interacting circled. The calculations are in two dimensions, and can be extended to handle any shapes.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block games as3 flash personal">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="http://sreenaths.com/as3/frigil/frigil.html" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/frigil/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="http://sreenaths.com/as3/frigil/frigil.html">
+											Frigil - The frog
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Games" src="images/techIcons/small/games.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+											<img title="Flash" src="images/techIcons/small/flash.png?ver="/>
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3 and Flash</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2012 (Hackathon Project)</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://zynga.com">
+													Zynga
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/frigil/ss1.jpg" data-lightbox="frigil" title="Frigil - The frog">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/frigil/ss2.jpg" data-lightbox="frigil" title="Frigil - The frog">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/frigil/ss4.jpg" data-lightbox="frigil" title="Frigil - The frog">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss4t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/frigil/ss5.jpg" data-lightbox="frigil" title="Frigil - The frog">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss5t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/frigil/ss6.jpg" data-lightbox="frigil" title="Frigil - The frog">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss6t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/frigil/ss7.jpg" data-lightbox="frigil" title="Frigil - The frog">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss7t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/frigil/ss8.jpg" data-lightbox="frigil" title="Frigil - The frog">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss8t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/frigil/ss1.jpg" data-lightbox="frigil" title="Frigil - The frog">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/frigil/ss2.jpg" data-lightbox="frigil" title="Frigil - The frog">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/frigil/ss4.jpg" data-lightbox="frigil" title="Frigil - The frog">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss4t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/frigil/ss5.jpg" data-lightbox="frigil" title="Frigil - The frog">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss5t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/frigil/ss6.jpg" data-lightbox="frigil" title="Frigil - The frog">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss6t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/frigil/ss7.jpg" data-lightbox="frigil" title="Frigil - The frog">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss7t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/frigil/ss8.jpg" data-lightbox="frigil" title="Frigil - The frog">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/frigil/ss8t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Frigil was our entry for the 2012 Hackathon. The game was envisioned and implemented by my artist friend and me in less than a week. The game says the story of Frigil, the frog; who is on a saga to be the next king. Reaching the yellow leaf completes each level, but take care to stay away from the foes and also ensure to collect the goodies for better score.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block games as3 flash php corporate">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="http://www.facebook.com/HiddenChronicles" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/hc/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="http://www.facebook.com/HiddenChronicles">
+											Hidden Chronicles
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Games" src="images/techIcons/small/games.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+											<img title="Flash" src="images/techIcons/small/flash.png?ver="/>
+											<img title="PHP" src="images/techIcons/small/php.png?ver="/>
+											<img title="Corporate Project" src="images/techIcons/small/corporate.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3, Flash and PHP</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2012</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://zynga.com">
+													Zynga
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/hc/ss1.jpg" data-lightbox="hc" title="Hidden Chronicles">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hc/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/hc/ss2.jpg" data-lightbox="hc" title="Hidden Chronicles">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hc/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/hc/ss3.jpg" data-lightbox="hc" title="Hidden Chronicles">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/hc/ss3t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/hc/ss1.jpg" data-lightbox="hc" title="Hidden Chronicles">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hc/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/hc/ss2.jpg" data-lightbox="hc" title="Hidden Chronicles">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hc/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/hc/ss3.jpg" data-lightbox="hc" title="Hidden Chronicles">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/hc/ss3t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Worked with the US team in successfully transitioning the game to India. Post transition our team had been actively involved in the release of few key features and game maintenance.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block games as3 php js corporate">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="https://www.facebook.com/pages/CityVille/168232079864416" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/cv/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="https://www.facebook.com/pages/CityVille/168232079864416">
+											City Ville
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Games" src="images/techIcons/small/games.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+											<img title="PHP" src="images/techIcons/small/php.png?ver="/>
+											<img title="JavaScript" src="images/techIcons/small/javascript.png?ver="/>
+											<img title="Corporate Project" src="images/techIcons/small/corporate.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3, PHP</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2012</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://zynga.com">
+													Zynga
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/cv/ss1.jpg" data-lightbox="cv" title="City Ville">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cv/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cv/ss2.jpg" data-lightbox="cv" title="City Ville">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cv/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cv/ss3.jpg" data-lightbox="cv" title="City Ville">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cv/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cv/ss4.jpg" data-lightbox="cv" title="City Ville">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cv/ss4t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/cv/ss1.jpg" data-lightbox="cv" title="City Ville">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cv/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cv/ss2.jpg" data-lightbox="cv" title="City Ville">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cv/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cv/ss3.jpg" data-lightbox="cv" title="City Ville">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cv/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cv/ss4.jpg" data-lightbox="cv" title="City Ville">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cv/ss4t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								As part of the City Ville team my contributions have gone into some features and performance improvement activities. Our team created a user-polling framework and few new in-game objects.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block games as3 flash stage3d flare3d unity">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/craft/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Craft 3D & Cube
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Games" src="images/techIcons/small/games.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+											<img title="Flash" src="images/techIcons/small/flash.png?ver="/>
+											<img title="Stage 3D" src="images/techIcons/small/stage3d.png?ver="/>
+											<img title="Flare 3D" src="images/techIcons/small/flare3d.png?ver="/>
+											<img title="Unity" src="images/techIcons/small/unity.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3 with Stage 3D and Flare3D, Flash, Unity</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2011-2012</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://zynga.com">
+													Zynga
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/craft/ss1.jpg" data-lightbox="xc" title="Craft 3D &amp; Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/craft/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/craft/ss2.jpg" data-lightbox="xc" title="Craft 3D &amp; Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/craft/ss2t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/craft/ss1.jpg" data-lightbox="xc" title="Craft 3D &amp; Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/craft/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/craft/ss2.jpg" data-lightbox="xc" title="Craft 3D &amp; Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/craft/ss2t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Our team created a full 3D version of Craft Iso. Prototypes were created both in Unity and flash. My main contribution went into an engine named Cube. Cube was build over Flare 3D, it also directly communicated with Stage3D for performance intensive works.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block games as3 flash">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="http://sreenaths.com/as3/builder/builder.html" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/builder/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="http://sreenaths.com/as3/builder/builder.html">
+											Craft Iso
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Games" src="images/techIcons/small/games.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+											<img title="Flash" src="images/techIcons/small/flash.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3 ( On Iso2D )</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2011 (Hackathon Project)</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/builder/ss1.jpg" data-lightbox="craft" title="Craft Iso">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/builder/ss2.jpg" data-lightbox="craft" title="Craft Iso">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/builder/ss3.jpg" data-lightbox="craft" title="Craft Iso">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/builder/ss4.jpg" data-lightbox="craft" title="Craft Iso">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss4t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/builder/ss5.jpg" data-lightbox="craft" title="Craft Iso">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss5t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/builder/ss6.jpg" data-lightbox="craft" title="Craft Iso">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss6t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/builder/ss7.jpg" data-lightbox="craft" title="Craft Iso">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss7t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/builder/ss1.jpg" data-lightbox="craft" title="Craft Iso">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/builder/ss2.jpg" data-lightbox="craft" title="Craft Iso">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/builder/ss3.jpg" data-lightbox="craft" title="Craft Iso">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/builder/ss4.jpg" data-lightbox="craft" title="Craft Iso">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss4t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/builder/ss5.jpg" data-lightbox="craft" title="Craft Iso">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss5t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/builder/ss6.jpg" data-lightbox="craft" title="Craft Iso">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss6t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/builder/ss7.jpg" data-lightbox="craft" title="Craft Iso">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/builder/ss7t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Craft Iso was created for the 2012 Hackathon competition. It was made over Iso2D by adding the third dimension. The prototype provided an infinite block-by-block building rig with various kinds of blocks.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block php hbase">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/z.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Greyhound
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="PHP" src="images/techIcons/small/php.png?ver="/>
+											<img title="H-Base" src="images/techIcons/small/hbase.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">PHP, AS3, JavaScript, Hbase</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2011</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://zynga.com">
+													Zynga
+												</a>
+											</div>
+										</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								Greyhound provides a set of technologies and Game Mechanics APIs that improve server efficiency. It's working at the core of all new Zynga games including FramVille 2.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block php flash java as3">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="https://apps.facebook.com/yoville" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/yo/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="https://apps.facebook.com/yoville">
+											YoVille
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="PHP" src="images/techIcons/small/php.png?ver="/>
+											<img title="Flash" src="images/techIcons/small/flash.png?ver="/>
+											<img title="Java" src="images/techIcons/small/java.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3, Flash, Java, PHP</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2011</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://zynga.com">
+													Zynga
+												</a>
+											</div>
+										</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								As part of the YoVille team my contributions went in creating game features. Some of the key features were Yo UI Revamp, Multi Player Actions, Chat Next Gen and Yo Avenues bold beat. For UI Revamp, Player Actions and Chat I was awarded the opportunity to drive the team. Technically my major contributions went in creating a communication framework for the new in-game chat and in creating the base tech for multi-player interactions.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal as3">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/iso2D/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Iso2D
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="Action Script 3" src="images/techIcons/small/as3.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">AS3</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2011</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/iso2D/ss1.jpg" data-lightbox="iso2d" title="Iso2D">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/iso2D/ss2.jpg" data-lightbox="iso2d" title="Iso2D">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/iso2D/ss3.jpg" data-lightbox="iso2d" title="Iso2D">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/iso2D/ss4.jpg" data-lightbox="iso2d" title="Iso2D">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss4t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/iso2D/ss5.jpg" data-lightbox="iso2d" title="Iso2D">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss5t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/iso2D/ss1.jpg" data-lightbox="iso2d" title="Iso2D">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/iso2D/ss2.jpg" data-lightbox="iso2d" title="Iso2D">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/iso2D/ss3.jpg" data-lightbox="iso2d" title="Iso2D">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/iso2D/ss4.jpg" data-lightbox="iso2d" title="Iso2D">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss4t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/iso2D/ss5.jpg" data-lightbox="iso2d" title="Iso2D">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/iso2D/ss5t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								A highly flexible axonometric game engine built on my patented technology. The engine is capable of handling any tile size in all camera angles and width to height ratios. It's achieved by using my new geometric equations, the same are on final patenting process under U.S patent application serial no: 13/745,103. The engine helped in envisioning CraftIso pitch and Greyhound demo.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block js jquery extjs html css php">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/s.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											LinkPad
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="JavaScript" src="images/techIcons/small/javascript.png?ver="/>
+											<img title="j-Query" src="images/techIcons/small/jquery.png?ver="/>
+											<img title="Ext-JS" src="images/techIcons/small/extjs.png?ver="/>
+											<img title="HTML 5" src="images/techIcons/small/html5.png?ver="/>
+											<img title="CSS 3" src="images/techIcons/small/css3.png?ver="/>
+											<img title="PHP" src="images/techIcons/small/php.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">JavaScript, HTML5 (Canvas), PHP</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2011</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://subex.com">
+													Subex
+												</a>
+											</div>
+										</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								LinkPad provides a highly interactive interface for creating flow charts on a browser. It was made purely on HTML5 canvas; a VML based canvas alternative named s-canvas was also created for compatibility with the then IE versions.  It's used by ROC-FM for the graphical representation and management of process workflows.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal js">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/sjs/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											SJS
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="JavaScript" src="images/techIcons/small/javascript.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">JavaScript</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2010</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/sjs/ss1.jpg" data-lightbox="sjs" title="SJS">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/sjs/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/sjs/ss2.jpg" data-lightbox="sjs" title="SJS">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/sjs/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/sjs/ss3.jpg" data-lightbox="sjs" title="SJS">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/sjs/ss3t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/sjs/ss1.jpg" data-lightbox="sjs" title="SJS">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/sjs/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/sjs/ss2.jpg" data-lightbox="sjs" title="SJS">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/sjs/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/sjs/ss3.jpg" data-lightbox="sjs" title="SJS">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/sjs/ss3t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								A library mothering various UI widgets, components and utilities. After working with YUI and ExtJS, my intention was to create a pure JS based library that is better modularized with each class in a separate file, and at the same time more flexible by dynamically loading the required scripts when required. <a href='http://sreenaths.com/javascript/Tests/testSDock.html'>Click here</a> to see demo of one of the component.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal js rails">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/p.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Bridge and IWT
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="JavaScript" src="images/techIcons/small/javascript.png?ver="/>
+											<img title="Ruby &amp; ROR" src="images/techIcons/small/rails.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">JavaScript, Ruby and Rails</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2009</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								Bridge is a lightweight RPC framework for "client to client" and "server to client" communication. The client side was completely done in vanilla JS and the server side in Ruby. It used an open connection instead of a polling approach to get data from the server at real time. Arguments were JSON encoded and the API was flexible enough to handle both scoped and global function calls. IWT stands for Inter Window Tunnel, and helps to communicate between multiple windows/tabs open in a browser from the same domain. It helps bridge to maintain a single open connection and serve all windows opened under a domain.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block js jquery extjs html css rails cpp flash shell">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="http://www.subex.com/fraud-management.php" class="main-image-container ">
+									<div class="rounded main-image" style="background-image:url(images/projects/nikira/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black " href="http://www.subex.com/fraud-management.php">
+											Nikira <span class=small>(Now ROC Fraud Management)</span>
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="JavaScript" src="images/techIcons/small/javascript.png?ver="/>
+											<img title="j-Query" src="images/techIcons/small/jquery.png?ver="/>
+											<img title="Ext-JS" src="images/techIcons/small/extjs.png?ver="/>
+											<img title="HTML 5" src="images/techIcons/small/html5.png?ver="/>
+											<img title="CSS 3" src="images/techIcons/small/css3.png?ver="/>
+											<img title="Ruby &amp; ROR" src="images/techIcons/small/rails.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+											<img title="Flash" src="images/techIcons/small/flash.png?ver="/>
+											<img title="Shell Script" src="images/techIcons/small/shell.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Rails, Ruby, C++, JavaScript, Ext-JS, Flash, Shell script</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2008-2011</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="http://subex.com">
+													Subex
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/nikira/ss1.jpg" data-lightbox="nikira" title="Nikira &lt;span class&#x3D;small&gt;(Now ROC Fraud Management)&lt;/span&gt;">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/nikira/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/nikira/ss2.jpg" data-lightbox="nikira" title="Nikira &lt;span class&#x3D;small&gt;(Now ROC Fraud Management)&lt;/span&gt;">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/nikira/ss2t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/nikira/ss1.jpg" data-lightbox="nikira" title="Nikira &lt;span class&#x3D;small&gt;(Now ROC Fraud Management)&lt;/span&gt;">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/nikira/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/nikira/ss2.jpg" data-lightbox="nikira" title="Nikira &lt;span class&#x3D;small&gt;(Now ROC Fraud Management)&lt;/span&gt;">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/nikira/ss2t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Our team development and support the best fraud management system for mobile NOCs. Worked on all modules, from the heavy weight C++ server to ROR thin client and Java thick client. My key contributions were in the development of an advanced querying framework, a data steam manager, a multi file up-loader and few file translators.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal java">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/neo/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											NEO <span class=small>(Neutral Emulation Of NEO)</span>
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="Java" src="images/techIcons/small/java.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Java</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2008</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="">
+													College project
+												</a>
+											</div>
+										</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								As part of the college main project, we created a virtual baby named NEO. He was programmed to reacts to our expressions, emotions and actions. A webcam and microphone acted as NEO's sensory inputs, the monitor and pare of speakers acted as outputs. Using motion detection NEO's eyes would follow moving objects, he would express happiness while listening to soothing sound and would get emotional with noises. Coupled with face recognition and gesture recognition we expanded NEO's capabilities. The main technical innovation we made in this project was a grammatical parser based on the nine emotions of natyasastra. This enabled the system to learn and evolve based on activities happening around. Also one main aim was to enable to the system to learn sounds and associate it with gestures.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/s3/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											S-Cube
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2007</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="">
+													College project
+												</a>
+											</div>
+										</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/s3/ss2.jpg" data-lightbox="s3" title="S-Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/s3/ss3.jpg" data-lightbox="s3" title="S-Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/s3/ss4.jpg" data-lightbox="s3" title="S-Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss4t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/s3/ss5.jpg" data-lightbox="s3" title="S-Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss5t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/s3/ss6.jpg" data-lightbox="s3" title="S-Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss6t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/s3/ss7.jpg" data-lightbox="s3" title="S-Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss7t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/s3/ss8.jpg" data-lightbox="s3" title="S-Cube">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss8t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/s3/ss2.jpg" data-lightbox="s3" title="S-Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/s3/ss3.jpg" data-lightbox="s3" title="S-Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/s3/ss4.jpg" data-lightbox="s3" title="S-Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss4t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/s3/ss5.jpg" data-lightbox="s3" title="S-Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss5t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/s3/ss6.jpg" data-lightbox="s3" title="S-Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss6t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/s3/ss7.jpg" data-lightbox="s3" title="S-Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss7t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/s3/ss8.jpg" data-lightbox="s3" title="S-Cube">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/s3/ss8t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								SCube was our college mini project. The name represents SSS and stands for Synchronous Sashay Simulator. The aim was to provide an efficient, versatile and generalized platform to ascertain the shortest path or the simplest path connecting two places on a map. Our system uses a method totally different from the conventional graph based approach, and provides better results in real world scenarios. It works in two phases. The creation/pre-procession phase in which an intermediate file called the map file is created from a black and white image of the map. Black represents obstacles and white represents traversable area. Non-traversable white patches on the map are removed through a process called lagoon erasing, and then edge detection is performed to get the data required for the intermediate file. Once the map file is create it can be used any number of times for finding path between two points. To find a path, shortest routes over the intersecting edges are taken and smoothened out using our RDH algorithm.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal vb">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/ll/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Language Lab
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="Visual Basic" src="images/techIcons/small/vb.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Visual Basic 6</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2007-2008</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="">
+													MyFactory
+												</a>
+											</div>
+										</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								Language Lab is one of my pocket money projects. The products were released under my company MyFactor, in a joint venture with another marketing firm. Language Lab provides various means for student teacher interaction and facilitated online material broadcasting, language learning and knowledge assessment. It was installed in various Indian colleges.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal vb">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/sozer/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Sozer
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="Visual Basic" src="images/techIcons/small/vb.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Visual Basic 6</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2007-2008</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="">
+													MyFactory
+												</a>
+											</div>
+										</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								Sozer stands for school organizer. It's the biggest product from MyFactory. The product helped in complete management of a school, it provided everything from managing time-table to the ledger sheet sheets. The product was installed at some schools in my state.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/turech/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Turech
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2006-2008</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								Turech is a numerically controlled construction toy, and was created for college project presentations. At the heart, the system was a set of DC motors controlled using parallel port through an optocoupler-relay array. At the software side, the program was equipped to manage signals send to the data port. It can translate keyboard inputs, record and replay the signal patterns.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal vb">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/oem/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Online Exam Manager
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="Visual Basic" src="images/techIcons/small/vb.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Visual Basic 6</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2006-2008</div>
+									</div>
+
+										<div class="detail">
+											<div class="detail-type">Associate</div>
+											<div class="detail-value">
+												<a class="hover-black" href="">
+													MyFactory
+												</a>
+											</div>
+										</div>
+
+								</div>
+							</div>
+
+
+							<div class="description">
+								OEM was one of my initial pocket money projects. It facilitated centralized management of various types of questions including polar, objective and written. Few schools and colleges in south India were our clients.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/armada/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											ARMADA-II
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2004-2005</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/armada/ss1.jpg" data-lightbox="armada" title="ARMADA-II">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/armada/ss2.jpg" data-lightbox="armada" title="ARMADA-II">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/armada/ss3.jpg" data-lightbox="armada" title="ARMADA-II">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/armada/ss4.jpg" data-lightbox="armada" title="ARMADA-II">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss4t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/armada/ss5.jpg" data-lightbox="armada" title="ARMADA-II">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss5t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/armada/ss1.jpg" data-lightbox="armada" title="ARMADA-II">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/armada/ss2.jpg" data-lightbox="armada" title="ARMADA-II">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/armada/ss3.jpg" data-lightbox="armada" title="ARMADA-II">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/armada/ss4.jpg" data-lightbox="armada" title="ARMADA-II">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss4t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/armada/ss5.jpg" data-lightbox="armada" title="ARMADA-II">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/armada/ss5t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								ARMADA stands for Artificial Recognition and Manipulation of Alphabetic Datum. It's the C++ implementation of my handwriting recognition algorithm, MAI-II. Back in 2002-03, when Microsoft's tablet PCs were the hot cakes of the tech world, what attracted me most, were the stylus and the magical recognition of characters written with it. Those made me start a mission to create a system that could recognize handwritten characters in any language. After multiple iterations of various algorithms and prototypes, I accomplished my goal; ARMADA core 2 was created. The software can learn the way you write a character, memorize it and use at a later instance to recognize the same. The best part is that it can learn any language.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/p2t/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											P2Texter
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2005</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/p2t/ss1.jpg" data-lightbox="p2texter" title="P2Texter">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/p2t/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/p2t/ss2.jpg" data-lightbox="p2texter" title="P2Texter">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/p2t/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/p2t/ss3.jpg" data-lightbox="p2texter" title="P2Texter">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/p2t/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/p2t/ss4.jpg" data-lightbox="p2texter" title="P2Texter">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/p2t/ss4t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/p2t/ss1.jpg" data-lightbox="p2texter" title="P2Texter">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/p2t/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/p2t/ss2.jpg" data-lightbox="p2texter" title="P2Texter">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/p2t/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/p2t/ss3.jpg" data-lightbox="p2texter" title="P2Texter">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/p2t/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/p2t/ss4.jpg" data-lightbox="p2texter" title="P2Texter">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/p2t/ss4t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								P2Tester or picture to text converter a tool to convert an image into a monochrome plain text equivalent. The resultant text file can be opened in any normal text editor. The system uses a set of 16 different characters; each character occupies a different screen space. When a mosaic of characters is made, with each pixel replaced with a character of relative intensity, the illusion of an image is created.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/perspective/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Perspective 3D Engine
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2004</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/perspective/ss1.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/perspective/ss3.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/perspective/ss5.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss5t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/perspective/ss6.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss6t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/perspective/ss7.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss7t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/perspective/ss8.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss8t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/perspective/ss9.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss9t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/perspective/ss1.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/perspective/ss3.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/perspective/ss5.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss5t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/perspective/ss6.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss6t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/perspective/ss7.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss7t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/perspective/ss8.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss8t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/perspective/ss9.jpg" data-lightbox="perspective" title="Perspective 3D Engine">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/perspective/ss9t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Perspective 3D Engine is my C++ implementation of the perspective projection in engineering graphics. Using the tool one can easily design a 3D wireframe; view perspective projection of the same, and alter the projection parameters. The project was initially started as an educational tool to learn the effect of various parameters on the projection of an object. Later the core of the project was used as a 3D engine in some other programs. It helped in animating objects in all three space dimensions.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/svega/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Svega
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2004</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/svega/ss1.jpg" data-lightbox="svega" title="Svega">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/svega/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/svega/ss2.jpg" data-lightbox="svega" title="Svega">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/svega/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/svega/ss3.jpg" data-lightbox="svega" title="Svega">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/svega/ss3t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/svega/ss1.jpg" data-lightbox="svega" title="Svega">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/svega/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/svega/ss2.jpg" data-lightbox="svega" title="Svega">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/svega/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/svega/ss3.jpg" data-lightbox="svega" title="Svega">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/svega/ss3t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								As a programmer, my key aim back in those days was to explore beyond the boundaries of conventional programming. As I'm more inclined towards graphics, one key objective was to directly control graphics card for better performance, color and resolution. Hence project SVEGA was started. SVEGA provided TC++ APIs for drawing basic shapes and displaying BMP images in SVGA. 256-colored SVGA was a major achievement above the 16-colored VGA provided by graphics header file.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/swing/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Swing
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2004</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/swing/ss1.jpg" data-lightbox="swing" title="Swing">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/swing/ss1t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/swing/ss1.jpg" data-lightbox="swing" title="Swing">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/swing/ss1t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Swing is my attempt to leverage the sound card for music. It enabled playing uncompressed single-track wave files in TC++, and was a major achievement way beyond the frequency based sound tones supported by the language. The library also supported amplitude based graphical visualization of currently played music.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/tumac/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Tumac
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2003</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/tumac/ss1.jpg" data-lightbox="tumac" title="Tumac">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/tumac/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/tumac/ss2.jpg" data-lightbox="tumac" title="Tumac">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/tumac/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/tumac/ss3.jpg" data-lightbox="tumac" title="Tumac">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/tumac/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/tumac/ss4.jpg" data-lightbox="tumac" title="Tumac">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/tumac/ss4t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/tumac/ss1.jpg" data-lightbox="tumac" title="Tumac">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/tumac/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/tumac/ss2.jpg" data-lightbox="tumac" title="Tumac">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/tumac/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/tumac/ss3.jpg" data-lightbox="tumac" title="Tumac">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/tumac/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/tumac/ss4.jpg" data-lightbox="tumac" title="Tumac">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/tumac/ss4t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Tumac stands for The Unlimited Machine. It's programmed to calculate Gregorian calendar for any year you can enter in a fraction of a second. This feat is achieved by computing the required calculations while entering the year. The key innovation is a new math to do basic operations from left to right than the known right to left approach.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/cgames/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											Games
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2002-2005</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/cgames/ss1.jpg" data-lightbox="games" title="Games">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cgames/ss3.jpg" data-lightbox="games" title="Games">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cgames/ss4.jpg" data-lightbox="games" title="Games">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss4t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cgames/ss5.jpg" data-lightbox="games" title="Games">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss5t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cgames/ss9.jpg" data-lightbox="games" title="Games">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss9t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cgames/ss10.jpg" data-lightbox="games" title="Games">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss10t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/cgames/ss11.jpg" data-lightbox="games" title="Games">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss11t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/cgames/ss1.jpg" data-lightbox="games" title="Games">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cgames/ss3.jpg" data-lightbox="games" title="Games">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cgames/ss4.jpg" data-lightbox="games" title="Games">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss4t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cgames/ss5.jpg" data-lightbox="games" title="Games">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss5t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cgames/ss9.jpg" data-lightbox="games" title="Games">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss9t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cgames/ss10.jpg" data-lightbox="games" title="Games">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss10t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/cgames/ss11.jpg" data-lightbox="games" title="Games">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/cgames/ss11t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								Graphics and UX had been always my favorite, and there is nothing better than games to experiment with both. Attached are screenshots from some of my DOS games. They helped me learn programming and also came handy in some TC++ presentations.
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="project outer-block personal cpp">
+					<div class="inner-block v-padding-2x">
+						<div>
+							<div class="details">
+								<a href="" class="main-image-container no-mouse">
+									<div class="rounded main-image" style="background-image:url(images/projects/anim/main.jpg?ver=);" ></div>
+								</a>
+
+								<div class="details-container">
+									<div class="title" >
+										<a class="hover-black no-mouse" href="">
+											TC Art
+										</a>
+
+									</div>
+
+									<div class="tags">
+											<img title="Personal Project" src="images/techIcons/small/me.png?ver="/>
+											<img title="C++" src="images/techIcons/small/cpp.png?ver="/>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Technologies</div>
+										<div class="detail-value">Turbo C++ 3.0</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Chrono</div>
+										<div class="detail-value">2002-2005</div>
+									</div>
+
+									<div class="detail">
+										<div class="detail-type">Project type</div>
+										<div class="detail-value">Personal fun project</div>
+									</div>
+
+										<div class="gallery-wrapper">
+												<a href="images/projects/anim/ss1.jpg" data-lightbox="anim" title="TC Art">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss1t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/anim/ss2.jpg" data-lightbox="anim" title="TC Art">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss2t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/anim/ss3.jpg" data-lightbox="anim" title="TC Art">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss3t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/anim/ss4.jpg" data-lightbox="anim" title="TC Art">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss4t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/anim/ss5.jpg" data-lightbox="anim" title="TC Art">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss5t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/anim/ss6.jpg" data-lightbox="anim" title="TC Art">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss6t.jpg?ver=);" ></div>
+												</a>
+												<a href="images/projects/anim/ss7.jpg" data-lightbox="anim" title="TC Art">
+													<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss7t.jpg?ver=);" ></div>
+												</a>
+										</div>
+								</div>
+							</div>
+
+								<div class=gallery-wrapper>
+										<a href="images/projects/anim/ss1.jpg" data-lightbox="anim" title="TC Art">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss1t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/anim/ss2.jpg" data-lightbox="anim" title="TC Art">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss2t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/anim/ss3.jpg" data-lightbox="anim" title="TC Art">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss3t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/anim/ss4.jpg" data-lightbox="anim" title="TC Art">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss4t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/anim/ss5.jpg" data-lightbox="anim" title="TC Art">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss5t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/anim/ss6.jpg" data-lightbox="anim" title="TC Art">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss6t.jpg?ver=);" ></div>
+										</a>
+										<a href="images/projects/anim/ss7.jpg" data-lightbox="anim" title="TC Art">
+											<div class="rounded gallery-thumb" style="background-image:url(images/projects/anim/ss7t.jpg?ver=);" ></div>
+										</a>
+								</div>
+
+							<div class="description">
+								My relationship with computers started back in 2002, and Turbo C++ 3.0 was the first language that I had my hands on. Beyond the basics, what attracted me most was the graphics header file that gave pixel level control of everything that was happening on the computer screen. These screen shots are from some programs I wrote for learning.
+							</div>
+						</div>
+					</div>
+				</li>
+
+		</ul>
+	</div>
+
+
+			<div class="footer outer-block">
+				<div class="inner-block">
+
+					<div class="small-text">
+						© 2017 Sreenath Somarajapuram
+					</div>
+
+					<div class="menu float-right">
+						<a href="index" class="hover-black">home</a>
+						<a href="about" class="hover-black">about</a>
+						<a href="projects" class="hover-black">projects</a>
+						<a href="contacts" class="hover-black">contacts</a>
+					</div>
+
+					<a class="scroll-top hover-black" href="javascript:scrollTop();">&#8682;</a>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

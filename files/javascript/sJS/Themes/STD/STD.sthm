@@ -1,0 +1,24 @@
+/*------------------------------------------
+   STD 0.1
+   SREEsoft
+   Standard(STD) theme file for sPanel
+   Note : Just for test cases.
+------------------------------------------*/
+if(!window.sThemeBook) window.sThemeBook=new Array();
+
+window.sThemeBook["STD"]={
+	Type: 'BOX',
+
+	L: 'L.PNG',
+	T: 'T.PNG',
+	R: 'R.PNG',
+	B: 'B.PNG',
+
+	LT: 'LT.PNG',
+	RT: 'RT.PNG',
+	LB: 'LB.PNG',
+	RB: 'RB.PNG',
+
+	GlowRadious: 20,
+	CornerRadious: 11
+};

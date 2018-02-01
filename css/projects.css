@@ -1,0 +1,126 @@
+/* 
+	CSS for projects page sreenaths.com
+*/
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700);
+.title-bar {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.title-bar .description {
+  font-size: 14px;
+}
+.tag-bar.stuck {
+  background: url('../images/bg-bottom.jpg');
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  opacity: 0.98;
+  filter: alpha(opacity=98);
+}
+.tag-bar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px 0px 0px -4px;
+}
+.tag-bar ul li {
+  display: inline;
+}
+.projects-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.project {
+  border-top: 1px dotted #555;
+}
+.project div.rounded {
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+.project a div.rounded:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.project .gallery-wrapper {
+  display: none;
+  margin-top: 2px;
+  word-wrap: break-word;
+}
+.project .gallery-wrapper .gallery-thumb {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin-right: 5px;
+}
+.project .details {
+  position: relative;
+}
+.project .details .main-image {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  margin-right: 15px;
+}
+.project .details .tags {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+.project .details .details-container {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 14px;
+  color: #888888;
+}
+.project .details .details-container .title {
+  display: inline;
+  font-size: 24px;
+}
+.project .details .details-container .gallery-wrapper {
+  display: inline;
+}
+.project .details .details-container .detail {
+  text-align: left;
+}
+.project .details .details-container .detail .detail-type {
+  display: inline-block;
+  font-weight: bold;
+  width: 150px;
+}
+.project .details .details-container .detail .detail-value {
+  display: inline-block;
+}
+.project .description {
+  font-size: 14px;
+  line-height: 25px;
+  color: #555555;
+  padding-top: 10px;
+  text-indent: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .project .details .details-container {
+    margin-bottom: 10px;
+  }
+  .project .details .details-container .title {
+    font-size: 7vw;
+    margin-top: 10px;
+  }
+  .project .details .details-container .tags {
+    position: static;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  .project .details .details-container .gallery-wrapper {
+    display: none;
+  }
+  .project .details .details-container .detail {
+    font-size: 4vw;
+  }
+  .project .gallery-wrapper {
+    display: inline;
+  }
+}

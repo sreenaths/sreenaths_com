@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Sreenath S &#187; About</title>
+
+		<!-- Setting viewport for mobiles -->
+		<meta name=viewport content="width=320, initial-scale=1">
+
+		<!-- Load styles -->
+		<link rel="stylesheet" type="text/css" href="css/main.css?ver=1">
+		<link rel="icon" type="image/png" href="favicon.png?ver=1">
+
+		<!-- Image preloads -->
+		<link rel="prefetch" href="images/loader.gif?ver=1"/>
+		<link rel="prefetch" href="images/bg-header.jpg?ver=1"/>
+
+		<!-- Load scripts -->
+		<script src="js/jq.js?ver=1"></script>
+		<script src="js/shared.js?ver=1"></script>
+	</head>
+
+	<body class="landscape about-page">
+
+		<div class="loading-msg">
+			<img src="images/ss.png?ver=1">
+			Loading</br>
+			<img src="images/loader.gif?ver=1">
+		</div>
+
+		<div class="main-container">
+			<script>initLoaderAnim();</script>
+
+			<div class="header outer-block">
+				<div class="inner-block">
+					<a class="index-link" href="index">
+						<img class="logo" src="images/ss.png?ver=1"/>
+						<div class="name">&nbsp;Sreenath Somarajapuram</div>
+					</a>
+					<div class="menu">
+						<a class="home-link" href="index">home</a>
+						<a class="about-link" href="about">about</a>
+						<a class="projects-link" href="projects">projects</a>
+						<a class="contacts-link" href="contacts">contacts</a>
+					</div>
+				</div>
+			</div>
+
+				<div class="about-page">
+
+		<div class="title-bar outer-block grey-gradiant-half">
+			<div class="inner-block v-padding-2x">
+
+				<div class="heading">About Me</div>
+				<div class="sub-heading">
+					Engineer, Designer and Technology Enthusiast from Bangalore, India.
+				</div>
+
+				<div class="center">
+					<img class="cover-image" src="images/me2.png?ver=1">
+				</div>
+
+				<div class="description">
+					<p>I am a designer by heart and a programmer by profession. User interfaces are what I love creating. What drives me the most is the thrill of designing the best experiences on various platforms.</p>
+					<p>Currently I'm working as a Senior Engineer in the core R&D team of Hortonworks, the Hadoop company. I'm a big fan of ECMA based scripting languages, and I love working on user facing elements.</p>
+					<p>When I'm not with my keyboard, you might find me on a saddle or behind few lenses. I love travelling; nothing makes me happier than seeing new places and meeting new people. I believe every single person have a different story to tell, and new things to teach. I enjoy movies, music and art, I also love theoretical physics, and I believe that we are not alone in this Universe.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="facts-bar outer-block inner-shade bg1">
+			<div class="inner-block v-padding-2x">
+				<div class="sub-heading">Random stuffs about me</div>
+				<div class="description">
+					<ul>
+						<li>I prefer the red pill</li>
+						<li>I firmly believe that we will create time machine and warp drives</li>
+						<li>Batman and Superman are my super heroes</li>
+						<li>I'm waiting for a Pleiadian encounter</li>
+						<li>The world can be a better place</li>
+						<li>Love those little minions</li>
+						<li>I'm a believer in my own ways</li>
+						<li>The matrix trilogy and Inception are my favorite movies</li>
+						<li>I am what I am</li>
+					</ul>
+				</div>
+
+				<div class="center">
+					<img class="super-heros" src="images/men.png?ver=1"/>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+			<div class="footer outer-block">
+				<div class="inner-block">
+
+					<div class="small-text">
+						© 2017 Sreenath Somarajapuram
+					</div>
+
+					<div class="menu float-right">
+						<a href="index" class="hover-black">home</a>
+						<a href="about" class="hover-black">about</a>
+						<a href="projects" class="hover-black">projects</a>
+						<a href="contacts" class="hover-black">contacts</a>
+					</div>
+
+					<a class="scroll-top hover-black" href="javascript:scrollTop();">&#8682;</a>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

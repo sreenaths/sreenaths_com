@@ -1,0 +1,48 @@
+/* 
+	Home page CSS for sreenaths.com
+*/
+.paralax-container {
+  text-align: center;
+  height: 600px;
+}
+.paralax-container .inner-block {
+  width: 1024px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 0px 10px 0px 10px;
+}
+.paralax-container .inner-block div {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.current-assignment .sub-heading {
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 10px;
+}
+.current-assignment .company-logos a {
+  margin: 10px 20px 10px 20px;
+}
+.current-assignment .company-logos a img {
+  padding: 10px 0 10px 0;
+}
+.current-assignment .company-logos a:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.contacts .sub-heading {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.contacts .calls img {
+  vertical-align: middle;
+}
+.contacts a:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+@media only screen and (max-width: 400px) {
+  .calls {
+    font-size: 12px;
+  }
+}
