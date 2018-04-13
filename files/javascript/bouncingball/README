@@ -1,0 +1,3 @@
+Bouncing Ball
+============
+A small weekend project to quench my thirst for HTML5. The short project created a highly scailable miniature collision system that can handle any number of interacting circles. The calculations are in two dimensions, and can be extended to handle any shapes.

@@ -1,0 +1,53 @@
+<!--
+	Bouncing Ball
+	By Sreenath Somarajapuram
+-->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Bouncing Ball</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		
+		<!-- Can be merged on minification -->
+		<script src="js/base.js"></script>
+		<script src="js/physics/PhysicsBase.js"></script>
+		<script src="js/physics/shapes/Circle.js"></script>
+		<script src="js/physics/controllers/DragController.js"></script>
+		<script src="js/physics/controllers/CursorController.js"></script>
+
+	</head>
+
+	<body>
+		<div id="base" class="bound">
+			<div id="ball" phyclass="Circle" class="purple-ball">
+				<div class="purple-ball-div"></div>
+			</div>
+			
+			<!-- Duplicate the following to add more balls, but ensure that their left and top are positioned more than radius (61) pixels away. They would be physical objects but won’t be draggable as we haven't attached the drag controller.
+			<div phyclass="Circle" class="purple-ball" style="left:0px;top:0px;">
+				<div class="purple-ball-div"></div>
+			</div>
+			-->
+
+			<div id="rotor" phyclass="Circle" phyradius="60" class="rotor">
+				<div class="rotor-div"></div>
+			</div>
+		</div>
+
+		<div class=controls>
+			<input id="gravitySlider" type="range" step="0.01" min="0" max="1" value="0" /><span>&nbsp;Gravity</span></br>
+			<input id="frictionSlider" type="range" step="0.01" min="0" max="1" value="0" /><span>&nbsp;Friction</span>
+		</div>
+
+		<div class="message">Feel free to drag around the ball, or click on the white area to get an interactive cursor.</div>
+
+		<script src="js/bouncingball.js"></script>
+
+	</body>
+
+</html>

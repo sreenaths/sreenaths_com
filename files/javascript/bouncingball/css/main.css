@@ -1,0 +1,219 @@
+/*
+	Bouncing Ball Main CSS
+*/
+
+/* --- Gradient Background --- */
+html, body{
+
+	margin: 0px;
+
+	min-width: 100%;
+	min-height: 100%;
+
+	background-image: -moz-linear-gradient(top, #FFFFFF, #AAAAAA);
+	background-image: -webkit-gradient(linear, top, bottom, from(#FFFFFF), to(#AAAAAA));
+	background-image: -webkit-linear-gradient(top, #FFFFFF, #AAAAAA);
+	background-image: -o-linear-gradient(top, #FFFFFF, #AAAAAA);
+	background: -ms-linear-gradient(top,  #FFFFFF, #AAAAAA);
+	background-image: linear-gradient(to bottom, #FFFFFF, #AAAAAA);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#AAAAAA',GradientType=0 );
+
+}
+
+/* --- Physics Bound --- */
+.bound{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+/* --- Ball --- */
+.purple-ball{
+	/* Cross-browser hiding till all are loaded, better solution is there but scoped out. */
+	left: -200px;
+	top: -200px;
+	
+	position:absolute;
+	width:122px;
+	height:122px;
+	margin-top:-60px;
+	margin-left:-60px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;
+
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+
+}
+.purple-ball-div{
+	pointer-events:none;
+	position: absolute;
+	width: 132px;
+	height: 167px;
+	background: url(images/ball.png);
+
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+}
+
+/* -- Rotor --- */
+.rotor{
+	/* Cross-browser hiding till all are loaded, better solution is there but scoped out. */
+	left: -200px;
+	top: -200px;
+
+	pointer-events:none;
+
+	position:absolute;
+	width:122px;
+	height:122px;
+	margin-top:-61px;
+	margin-left:-61px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;
+
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+
+}
+.rotor-div{
+	width: 122px;
+	height: 122px;
+
+	background: url(images/dotted-circle.png);
+
+	-webkit-animation: rotate 3s linear infinite;
+	-moz-animation: rotate 3s linear infinite;
+	-ms-animation: rotate 3s linear infinite;
+	-o-animation: rotate 3s linear infinite;
+	animation: rotate 3s linear infinite;
+
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+}
+
+@-webkit-keyframes rotate {
+	from{ -webkit-transform: rotate(0deg); }
+	to{ -webkit-transform: rotate(180deg); }
+}
+@-moz-keyframes rotate {
+	from{ -moz-transform: rotate(0deg); }
+	to{ -moz-transform: rotate(180deg); }
+}
+@-ms-keyframes rotate {
+	from{ -ms-transform: rotate(0deg); }
+	to{ -ms-transform: rotate(180deg); }
+}
+@-o-keyframes rotate {
+	from{ -o-transform: rotate(0deg); }
+	to{ -o-transform: rotate(180deg); }
+}
+@keyframes rotate{
+	from{ transform: rotate(0deg); }
+	to{ transform: rotate(180deg); }
+}
+
+/*
+.ball-css {
+
+	top:50%;
+	left:50%;
+
+	margin-top: -60px;
+	margin-left: -60px;
+
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+
+	background-image: -moz-linear-gradient(top, #A75084, #542842);
+	background-image: -webkit-gradient(linear, top, bottom, from(#A75084), to(#542842));
+	background-image: -webkit-linear-gradient(top, #A75084, #542842);
+	background-image: -o-linear-gradient(top, #A75084, #542842);
+	background: -ms-linear-gradient(top,  #A75084, #542842);
+	background-image: linear-gradient(to bottom, #A75084, #542842);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A75084', endColorstr='#542842',GradientType=0 );
+
+	box-shadow: inset 0 -5px 15px rgba(255,204,255,0.5),
+		inset -2px -1px 40px rgba(0,0,0,0.4),
+		10px 45px 15px rgba(0,0,0,.07),
+		0 0 2px rgba(0,0,0,.4);
+
+}
+.ball-css::after {
+	position: absolute;
+	width: 72px;
+	height: 40px;
+	left: 24px;
+	top: 7px;
+	border-radius: 45px / 25px;
+
+	background-image: -moz-linear-gradient(top, #EBEBEB 0%, rgba(255,255,255,0) 100%);
+	background-image: -webkit-gradient(linear, top, bottom, color-stop(0%,#EBEBEB), color-stop(100%,rgba(255,255,255,0)));
+	background-image: -webkit-linear-gradient(top, #EBEBEB 0%,rgba(255,255,255,0) 100%);
+	background-image: -o-linear-gradient(top, #EBEBEB 0%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top, #EBEBEB 0%,rgba(255,255,255,0) 100%);
+	background-image: linear-gradient(top, #EBEBEB 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#00FFFFFF',GradientType=0 );
+
+	content: "";
+}
+*/
+
+/* Stats */
+.stats{
+	position: absolute;
+	pointer-events:none;
+}
+
+/* Controls */
+.controls, .message{
+	position: absolute;
+
+	font-family: helvetica;
+	font-size: 13px;
+	padding: 5px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;
+
+	color: #555555;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.controls{
+	right: 50px;
+}
+.controls:hover{
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+.controls span{
+	pointer-events:none;
+	position: absolute;
+}
+.controls input{
+	width: 200px;
+}
+
+.message{
+	pointer-events:none;
+	bottom: 0px;
+}
