@@ -13,12 +13,12 @@ function fadeOutIn( fadeOutSelector, fadeInSelector ){
 }
 
 function initLoaderAnim() {
-	$('.loading-msg').css("display", "block");
-	$('.main-container').css("display", "none");
+	// $('.loading-msg').css("display", "block");
+	// $('.main-container').css("display", "none");
 
-	$(window).load(function(){
-		fadeOutIn( '.loading-msg', '.main-container');
-	});
+	// $(window).load(function(){
+	// 	fadeOutIn( '.loading-msg', '.main-container');
+	// });
 }
 
 function scrollTop(){
